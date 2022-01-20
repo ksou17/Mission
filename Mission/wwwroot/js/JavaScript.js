@@ -1,5 +1,5 @@
-﻿$("#plzwork").click(function () {
-    total = (parseInt($("#Test").val()) * (.2)) + (parseInt($("#Assignment").val())*(.55)) + (parseInt($("#Group").val())*(.05)) + (parseInt($("#Quiz").val())*(.1)) + (parseInt($("#Final").val())*(.1));
+﻿$("#plzwork").submit(function () {
+    total = (parseInt($("#exam").val()) * (.2)) + (parseInt($("#assignments").val())*(.55)) + (parseInt($("#projects").val())*(.05)) + (parseInt($("#quizzes").val())*(.1)) + (parseInt($("#intex").val())*(.1));
     grade = "A";
 
     if (total >= 94) {
